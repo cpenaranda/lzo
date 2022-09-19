@@ -128,13 +128,13 @@ macro(lzo_add_executable t)
 endmacro()
 # main test driver
 lzo_add_executable(lzotest  lzotest/lzotest.c)
-# examples
+# # examples
 lzo_add_executable(dict     examples/dict.c)
 lzo_add_executable(lzopack  examples/lzopack.c)
 lzo_add_executable(overlap  examples/overlap.c)
 lzo_add_executable(precomp  examples/precomp.c)
 lzo_add_executable(precomp2 examples/precomp2.c)
-lzo_add_executable(simple   examples/simple.c)
+# lzo_add_executable(simple   examples/simple.c)
 # some boring internal test programs
 if(0)
     lzo_add_executable(align    tests/align.c)
