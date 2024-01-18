@@ -286,7 +286,7 @@ if(ENABLE_SHARED)
 endif()
 
 if(1)
-    set(f lzopack lzotest simple testmini) # examples
+    set(f lzopack lzotest testmini) # examples
     install(TARGETS ${f} DESTINATION "${CMAKE_INSTALL_FULL_LIBEXECDIR}/lzo/examples")
 endif()
 
